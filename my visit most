@@ -1,0 +1,64 @@
+DOMAIN-SUFFIX,cn
+
+# 得到
+DOMAIN-SUFFIX,luojilab.com
+DOMAIN-SUFFIX,igetget.com
+DOMAIN,adashbc.ut.taobao.com
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,cdn.bootcss.com
+DOMAIN,icity-imsm.2q10.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,edx-cdn.org
+DOMAIN,me.cpatrk.net
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,ddmogao.com
+DOMAIN-SUFFIX,umiwi.com
+IP-CIDR,101.91.37.28/32,no-resolve
+IP-CIDR,61.151.165.0/32,no-resolve
+IP-CIDR,116.196.84.232/32,no-resolve
+
+# 混沌
+# DOMAIN-SUFFIX,hundun.cn
+# DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN,adashxgc.ut.taobao.com
+# DOMAIN-SUFFIX,rp.hpplay.cn
+# DOMAIN-SUFFIX,jpush.cn
+IP-CIDR,183.239.223.245/32,no-resolve
+
+# 樊登读书
+DOMAIN-SUFFIX,dushu.io
+DOMAIN-SUFFIX,dushu365.com
+# DOMAIN-SUFFIX,hpplay.cn
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,trackingio.com
+
+# 10086
+# DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,gmcc.net
+
+# douyin
+DOMAIN-SUFFIX,douyin.com
+
+# cnbeta
+DOMAIN-SUFFIX,cnbeta.com
+DOMAIN-SUFFIX,cnbetacdn.com
+
+# weibo
+DOMAIN-KEYWORD,weibo
+
+# 高德
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+
+# 拼多多
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pddpic.com
+
+# Unkown
+DOMAIN-KEYWORD,feishu
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,95516.com
