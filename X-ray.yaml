@@ -135,13 +135,6 @@ rule-providers:
     path: ./ruleset/Disney.yaml
     interval: 86400
 
-  Facebook :
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml"
-    path: ./ruleset/Facebook.yaml
-    interval: 86400
-
   GitHub:
     type: http
     behavior: classical
@@ -184,20 +177,6 @@ rule-providers:
     path: ./ruleset/WhatsApp.yaml
     interval: 86400
 
-  Microsoft:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
-    path: ./ruleset/Microsoft.yaml
-    interval: 86400
-
-  Onedrive:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml"
-    path: ./ruleset/Onedrive.yaml
-    interval: 86400
-
   Tencent:
     type: http
     behavior: classical
@@ -208,6 +187,7 @@ rule-providers:
 rules:
   - RULE-SET,Apple,LB
   - DOMAIN-SUFFIX,cn,DIRECT
+  
   # 得到
   # PROCESS-NAME,得到,DIRECT // 得到
   # DOMAIN-KEYWORD,dedao,DIRECT // 得到
@@ -229,19 +209,26 @@ rules:
   - IP-CIDR,101.91.37.28/32,DIRECT,no-resolve # 得到
   - IP-CIDR,61.151.165.0/32,DIRECT,no-resolve # 得到
   - IP-CIDR,116.196.84.232/32,DIRECT,no-resolve # 得到
+  
+  #Tencent
   - RULE-SET,Tencent,DIRECT
+  
   # 混沌
-  - DOMAIN-SUFFIX,hundun.cn,DIRECT
-  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT # hundun aliyun server
-  - DOMAIN,adashxgc.ut.taobao.com,DIRECT # hundun aliyun server
-  - DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT # hundun bookclub
-  - DOMAIN-SUFFIX,jpush.cn,DIRECT # hundun
+  #- DOMAIN-SUFFIX,hundun.cn,DIRECT
+  #- DOMAIN-SUFFIX,aliyuncs.com,DIRECT # hundun aliyun server
+  #- DOMAIN,adashxgc.ut.taobao.com,DIRECT # hundun aliyun server
+  #- DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT # hundun bookclub
+  #- DOMAIN-SUFFIX,jpush.cn,DIRECT # hundun
   - IP-CIDR,183.239.223.245/32,DIRECT,no-resolve # hundun steam
+  
   # cn web
   - DOMAIN-SUFFIX,cnbeta.com,DIRECT
   - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
   - DOMAIN-KEYWORD,weibo,DIRECT
   - DOMAIN-SUFFIX,baidu.com,DIRECT
+  
+  #Globle
+  - DOMAIN-SUFFIX,jable.tv,JP
   - DOMAIN,app-measurement.com,LB
   - DOMAIN-SUFFIX,ggpht.com,LB
   - DOMAIN-KEYWORD,linkedin,FB
@@ -252,13 +239,13 @@ rules:
   - RULE-SET,Youtube,LB  
   - RULE-SET,Disney,JP
   - RULE-SET,GitHub,FB
-  - RULE-SET,Facebook,LB
   - RULE-SET,Wikimedia,LB
   - RULE-SET,Wikipedia,LB
   - RULE-SET,Twitter,LB
-  - RULE-SET,Microsoft,FB
   - RULE-SET,Telegram,LB
   - RULE-SET,WhatsApp,FB
+  
+  #cn ip
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
