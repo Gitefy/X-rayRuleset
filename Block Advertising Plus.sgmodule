@@ -1,0 +1,33 @@
+#!name=Block Advertising Plus
+#!desc=Block Advertising with Script for Surge iOS
+#!system=ios
+
+[URL Rewrite]
+# > Douyin(<= 16.2.0) By Choler
+^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek)) https://aweme.snssdk.com/aweme/v1/ header
+
+[Map Local]
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad data="https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/WeChat.json"
+
+[Script]
+# ---(By Choler)---
+# > Douyin(<= 16.2.0) - api?-*-*-*.amemv.com
+douyin = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?,requires-body=1,script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
+# ------
+
+# B
+# > ByteDance
+^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ - reject
+^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ - reject
+^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/img\/ad\.union\.api\/ - reject
+^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ - reject
+
+# ---(By yichahucha)---
+# > Weibo - api.weibo.cn,mapi.weibo.com,*.uve.weibo.com
+weibo_splash = type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+weibo_ads = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+# ------
+
+[MITM]
+hostname = %APPEND% *.amemv.com,aweme.snssdk.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,dsp.toutiao.com
