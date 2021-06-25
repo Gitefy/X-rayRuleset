@@ -1,9 +1,9 @@
 # rulesets-for-surge-and-clashx
 
-for own use
+For own use, thank BlackMatrix7 and others. 
 
-use less relu to get a fast responding 
+Use less relu to get a fast responding 
 
-that's all
+That's all
 
 Super fast! 😄
