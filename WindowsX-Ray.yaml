@@ -174,15 +174,7 @@ rules:
   - DOMAIN-SUFFIX,cn,DIRECT
 
   #Tencent
-  - RULE-SET,Tencent,DIRECT
-  
-  # 混沌
-  - DOMAIN-SUFFIX,hundun.cn,DIRECT
-  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT # hundun aliyun server
-  - DOMAIN,adashxgc.ut.taobao.com,DIRECT # hundun aliyun server
-  - DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT # hundun bookclub
-  - DOMAIN-SUFFIX,jpush.cn,DIRECT # hundun
-  - IP-CIDR,183.239.223.245/32,DIRECT,no-resolve # hundun steam
+  - RULE-SET,Tencent,DIRECT 
   
   # cn web
   - DOMAIN-SUFFIX,cnbeta.com,DIRECT
@@ -190,18 +182,27 @@ rules:
   - DOMAIN-KEYWORD,weibo,DIRECT
   - DOMAIN-SUFFIX,baidu.com,DIRECT
   
+  # 混沌
+  #- DOMAIN-SUFFIX,hundun.cn,DIRECT
+  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT # hundun aliyun server
+  - DOMAIN,adashxgc.ut.taobao.com,DIRECT # hundun aliyun server
+  #- DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT # hundun bookclub
+  #- DOMAIN-SUFFIX,jpush.cn,DIRECT # hundun
+  - IP-CIDR,183.239.223.245/32,DIRECT,no-resolve # hundun steam
+
+  
   #Globle
-  - DOMAIN-KEYWORD,linkedin,FB
-  - DOMAIN-SUFFIX,licdn.com,FB
-  - DOMAIN-SUFFIX,jp,JP
   - RULE-SET,Google,FB
   - RULE-SET,Youtube,LB  
   - RULE-SET,Disney,JP
   - RULE-SET,GitHub,FB
-  - RULE-SET,Wikimedia,LB
-  - RULE-SET,Wikipedia,LB
   - RULE-SET,Microsoft,FB
   - RULE-SET,Onedrive,FB
+  - RULE-SET,Wikimedia,LB
+  - RULE-SET,Wikipedia,LB
+  - DOMAIN-KEYWORD,linkedin,FB
+  - DOMAIN-SUFFIX,licdn.com,FB
+  - DOMAIN-SUFFIX,jp,JP
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
