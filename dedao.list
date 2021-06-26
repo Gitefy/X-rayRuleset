@@ -1,7 +1,4 @@
-# 得到
-# PROCESS-NAME,得到,DIRECT
-# DOMAIN-KEYWORD,dedao,DIRECT
-# DOMAIN-SUFFIX,dedao.cn,DIRECT
+# dedao
 DOMAIN-SUFFIX,luojilab.com,DIRECT
 DOMAIN-SUFFIX,igetget.com,DIRECT
 DOMAIN-SUFFIX,ut.taobao.com,DIRECT
@@ -13,7 +10,7 @@ DOMAIN,icity-imsm.2q10.com,DIRECT
 DOMAIN-SUFFIX,getui.com,DIRECT
 DOMAIN-SUFFIX,edx-cdn.org,DIRECT
 DOMAIN-SUFFIX,cpatrk.net,DIRECT
-DOMAIN-SUFFIX,umeng.com,DIRECT // 得到 hundun
+DOMAIN-SUFFIX,umeng.com,DIRECT // dedao hundun
 DOMAIN-SUFFIX,umengcloud.com,DIRECT
 DOMAIN-SUFFIX,ddmogao.com,DIRECT
 DOMAIN-SUFFIX,umiwi.com,DIRECT
