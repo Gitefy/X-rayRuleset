@@ -1,0 +1,21 @@
+# 得到
+# PROCESS-NAME,得到,DIRECT
+# DOMAIN-KEYWORD,dedao,DIRECT
+DOMAIN-SUFFIX,luojilab.com,DIRECT
+DOMAIN-SUFFIX,igetget.com,DIRECT
+DOMAIN-SUFFIX,ut.taobao.com,DIRECT
+DOMAIN-SUFFIX,bugsnag.com,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT // hundun dedao
+DOMAIN-SUFFIX,ctobsnssdk.com,DIRECT
+DOMAIN-SUFFIX,cdn.bootcss.com,DIRECT
+DOMAIN,icity-imsm.2q10.com,DIRECT
+DOMAIN-SUFFIX,getui.com,DIRECT
+DOMAIN-SUFFIX,edx-cdn.org,DIRECT
+DOMAIN-SUFFIX,cpatrk.net,DIRECT
+DOMAIN-SUFFIX,umeng.com,DIRECT // 得到 hundun
+DOMAIN-SUFFIX,umengcloud.com,DIRECT
+DOMAIN-SUFFIX,ddmogao.com,DIRECT
+DOMAIN-SUFFIX,umiwi.com,DIRECT
+IP-CIDR,101.91.37.28/32,DIRECT,no-resolve
+IP-CIDR,61.151.165.0/32,DIRECT,no-resolve
+IP-CIDR,116.196.84.232/32,DIRECT,no-resolve
