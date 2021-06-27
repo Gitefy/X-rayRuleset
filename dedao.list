@@ -1,12 +1,12 @@
 # dedao
 DOMAIN-SUFFIX,luojilab.com,DIRECT
 DOMAIN-SUFFIX,igetget.com,DIRECT
-DOMAIN-SUFFIX,ut.taobao.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,bugsnag.com,DIRECT
 DOMAIN-SUFFIX,aliyuncs.com,DIRECT // hundun dedao
 DOMAIN-SUFFIX,ctobsnssdk.com,DIRECT
 DOMAIN-SUFFIX,cdn.bootcss.com,DIRECT
-DOMAIN,icity-imsm.2q10.com,DIRECT
+DOMAIN,2q10.com,DIRECT
 DOMAIN-SUFFIX,getui.com,DIRECT
 DOMAIN-SUFFIX,edx-cdn.org,DIRECT
 DOMAIN-SUFFIX,cpatrk.net,DIRECT
