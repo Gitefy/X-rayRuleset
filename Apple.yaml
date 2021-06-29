@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,mzstatic.com
   - IP-CIDR,139.178.128.0/18,no-resolve
   - IP-CIDR,144.178.0.0/19,no-resolve
