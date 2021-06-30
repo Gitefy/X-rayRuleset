@@ -105,7 +105,7 @@ DOMAIN-SUFFIX,intagram.com
 DOMAIN-SUFFIX,intagrm.com
 DOMAIN-SUFFIX,internet.org
 DOMAIN-SUFFIX,intgram.com
-DOMAIN-SUFFIX,ip6.static.sl-reverse.com
+DOMAIN-SUFFIX,static.sl-reverse.com
 DOMAIN-SUFFIX,klik.me
 DOMAIN-KEYWORD,liverail
 DOMAIN-SUFFIX,login-account.net
@@ -134,7 +134,7 @@ DOMAIN-SUFFIX,reactjs.com
 DOMAIN-SUFFIX,reactjs.org
 DOMAIN-SUFFIX,recoiljs.org
 DOMAIN-SUFFIX,redkix.com
-DOMAIN-KWYWORD,rocksdb
+DOMAIN-KEYWORD,rocksdb
 DOMAIN-SUFFIX,sportstream.com
 DOMAIN-SUFFIX,terragraph.com
 DOMAIN-SUFFIX,thefind.com
