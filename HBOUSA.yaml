@@ -1,7 +1,8 @@
 payload:
+  - DOMAIN-SUFFIX,hbo.com
   - DOMAIN-SUFFIX,cinemax.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,maxgo.com
-  - PROCESS-NAME,com.hbo.hbonow
+  - DOMAIN-SUFFIX,redditstatic.com
