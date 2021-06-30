@@ -106,7 +106,7 @@ payload:
   - DOMAIN-SUFFIX,intagrm.com
   - DOMAIN-SUFFIX,internet.org
   - DOMAIN-SUFFIX,intgram.com
-  - IP6.static.sl-reverse.com
+  - DOMAIN-SUFFIX,static.sl-reverse.com
   - DOMAIN-SUFFIX,klik.me
   - DOMAIN-KEYWORD,liverail
   - DOMAIN-SUFFIX,login-account.net
