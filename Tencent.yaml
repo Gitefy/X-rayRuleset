@@ -157,6 +157,6 @@ payload:
   - DOMAIN-SUFFIX,yuewen.com
   - DOMAIN-SUFFIX,yux.team
   - DOMAIN-SUFFIX,ywurl.com
-  - URL-REGEX,^http:\/\/182\.254\.116\.116\/d\?dn=login\.tim\.qq\.com$
+ # - URL-REGEX,^http:\/\/182\.254\.116\.116\/d\?dn=login\.tim\.qq\.com$
   - IP-CIDR,103.238.16.0/23,no-resolve
   - IP-CIDR,103.7.28.0/22,no-resolve
