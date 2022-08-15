@@ -1,26 +1,54 @@
+
 # cnbeta
-DOMAIN-SUFFIX,cnbeta.com,DIRECT
-DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+DOMAIN-SUFFIX,cnbeta.com
+DOMAIN-SUFFIX,cnbetacdn.com
 # weibo
-DOMAIN-KEYWORD,weibo,DIRECT
+DOMAIN-KEYWORD,weibo
 # 高德
-DOMAIN-SUFFIX,amap.com,DIRECT
-DOMAIN-SUFFIX,autonavi.com,DIRECT
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
 # 拼多多
-DOMAIN-SUFFIX,pinduoduo.com,DIRECT
-DOMAIN-SUFFIX,pddpic.com,DIRECT
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pddpic.com
 # douyin
-DOMAIN-KEYWORD,douyin,DIRECT
-DOMAIN-SUFFIX,zjcdn.com,DIRECT
-DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN-SUFFIX,pstatp.com,DIRECT
-DOMAIN-SUFFIX,amemv.com,DIRECT
-DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-KEYWORD,douyin
+DOMAIN-SUFFIX,zjcdn.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,snssdk.com
 # huawei
-DOMAIN-SUFFIX,volcengineapi.com,DIRECT // 未知
-DOMAIN-SUFFIX,hicloud.com,DIRECT // apple except icloud keyword
-DOMAIN-KEYWORD,huawei,DIRECT
-DOMAIN-SUFFIX,dbankcdn.com,DIRECT
-DOMAIN-SUFFIX,vmall.com,DIRECT
-DOMAIN-SUFFIX,vmallres.com,DIRECT
-DOMAIN-SUFFIX,cn,DIRECT
+DOMAIN-SUFFIX,volcengineapi.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-KEYWORD,huawei
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,vmallres.com
+DOMAIN-SUFFIX,cn
+
+# big website
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,zhihu.com
+
+# tech site
+DOMAIN-SUFFIX,sspai.com
+DOMAIN-SUFFIX,ifeng.com
+DOMAIN-SUFFIX,csdn.net
+# work
+DOMAIN-KEYWORD,feishu
+#DOMAIN-SUFFIX,fang.com
+# 10086
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,gmcc.net
+
+DOMAIN,app-measurement.com
+
+# IP
+IP-CIDR,192.168.0.0/16
+IP-CIDR,10.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,127.0.0.0/8
