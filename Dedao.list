@@ -1,4 +1,4 @@
-# dedao
+# Dedao
 DOMAIN-SUFFIX,luojilab.com,DIRECT
 DOMAIN-SUFFIX,igetget.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
@@ -14,6 +14,12 @@ DOMAIN-SUFFIX,umeng.com,DIRECT // dedao hundun
 DOMAIN-SUFFIX,umengcloud.com,DIRECT
 DOMAIN-SUFFIX,ddmogao.com,DIRECT
 DOMAIN-SUFFIX,umiwi.com,DIRECT
+
+#少年得到
+DOMAIN-SUFFIX,tingyun.com,Direct // 少年得到
+DOMAIN-SUFFIX,igetcool.com,Direct //少年得到
+
+#IP
 IP-CIDR,101.91.37.28/32,DIRECT,no-resolve
 IP-CIDR,61.151.165.0/32,DIRECT,no-resolve
 IP-CIDR,116.196.84.232/32,DIRECT,no-resolve
