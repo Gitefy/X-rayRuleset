@@ -1,0 +1,24 @@
+DOMAIN-KEYWORD,byd,DIRECT //比亚迪
+
+# alibaba
+# DOMAIN-SUFFIX,taobao.com,DIRECT // dedao cdn use
+#DOMAIN-SUFFIX,alipay.com,DIRECT
+
+# 混沌
+# DOMAIN-SUFFIX,hundun.cn,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT // hundun aliyun server
+DOMAIN,ut.taobao.com,DIRECT // hundun aliyun server
+# DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT // hundun bookclub
+# DOMAIN-SUFFIX,jpush.cn,DIRECT // hundun
+DOMAIN-SUFFIX,yunpian.com,DIRECT // Sending SMS Platform
+IP-CIDR,183.239.223.245/32,DIRECT,no-resolve // hundun steam
+
+# 樊登读书
+DOMAIN-SUFFIX,dushu.io,DIRECT // bookclub
+DOMAIN-SUFFIX,dushu365.com,DIRECT // bookclub
+# DOMAIN-SUFFIX,hpplay.cn,DIRECT // bookclub hundun
+DOMAIN-SUFFIX,fengkongcloud.com,DIRECT // bookclub
+DOMAIN-SUFFIX,trackingio.com,DIRECT // bookclub
+DOMAIN-SUFFIX,jpush.io,DIRECT
+# DOMAIN-SUFFIX,permutive.app,REJECT
+
