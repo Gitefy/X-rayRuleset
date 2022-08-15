@@ -1,0 +1,26 @@
+# cnbeta
+DOMAIN-SUFFIX,cnbeta.com,DIRECT
+DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+# weibo
+DOMAIN-KEYWORD,weibo,DIRECT
+# 高德
+DOMAIN-SUFFIX,amap.com,DIRECT
+DOMAIN-SUFFIX,autonavi.com,DIRECT
+# 拼多多
+DOMAIN-SUFFIX,pinduoduo.com,DIRECT
+DOMAIN-SUFFIX,pddpic.com,DIRECT
+# douyin
+DOMAIN-KEYWORD,douyin,DIRECT
+DOMAIN-SUFFIX,zjcdn.com,DIRECT
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+# huawei
+DOMAIN-SUFFIX,volcengineapi.com,DIRECT // 未知
+DOMAIN-SUFFIX,hicloud.com,DIRECT // apple except icloud keyword
+DOMAIN-KEYWORD,huawei,DIRECT
+DOMAIN-SUFFIX,dbankcdn.com,DIRECT
+DOMAIN-SUFFIX,vmall.com,DIRECT
+DOMAIN-SUFFIX,vmallres.com,DIRECT
+DOMAIN-SUFFIX,cn,DIRECT
