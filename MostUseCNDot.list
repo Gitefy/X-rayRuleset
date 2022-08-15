@@ -1,24 +1,23 @@
-DOMAIN-KEYWORD,byd,DIRECT //比亚迪
+DOMAIN-KEYWORD,byd
 
 # alibaba
-# DOMAIN-SUFFIX,taobao.com,DIRECT // dedao cdn use
-#DOMAIN-SUFFIX,alipay.com,DIRECT
+# DOMAIN-SUFFIX,taobao.com
+#DOMAIN-SUFFIX,alipay.com
 
 # 混沌
-# DOMAIN-SUFFIX,hundun.cn,DIRECT
-DOMAIN-SUFFIX,aliyuncs.com,DIRECT // hundun aliyun server
-DOMAIN,ut.taobao.com,DIRECT // hundun aliyun server
-# DOMAIN-SUFFIX,rp.hpplay.cn,DIRECT // hundun bookclub
-# DOMAIN-SUFFIX,jpush.cn,DIRECT // hundun
-DOMAIN-SUFFIX,yunpian.com,DIRECT // Sending SMS Platform
-IP-CIDR,183.239.223.245/32,DIRECT,no-resolve // hundun steam
+# DOMAIN-SUFFIX,hundun.cn
+DOMAIN-SUFFIX,aliyuncs.com 
+DOMAIN,ut.taobao.com
+# DOMAIN-SUFFIX,rp.hpplay.cn
+# DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,yunpian.com
+IP-CIDR,183.239.223.245/32,no-resolve 
 
 # 樊登读书
-DOMAIN-SUFFIX,dushu.io,DIRECT // bookclub
-DOMAIN-SUFFIX,dushu365.com,DIRECT // bookclub
-# DOMAIN-SUFFIX,hpplay.cn,DIRECT // bookclub hundun
-DOMAIN-SUFFIX,fengkongcloud.com,DIRECT // bookclub
-DOMAIN-SUFFIX,trackingio.com,DIRECT // bookclub
-DOMAIN-SUFFIX,jpush.io,DIRECT
+DOMAIN-SUFFIX,dushu.io
+DOMAIN-SUFFIX,dushu365.com
+# DOMAIN-SUFFIX,hpplay.cn
+DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,trackingio.com
+DOMAIN-SUFFIX,jpush.io
 # DOMAIN-SUFFIX,permutive.app,REJECT
-
